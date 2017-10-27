@@ -10,6 +10,14 @@ body {
   margin-bottom: auto;
 }
 
+h2 {
+  margin: 15px 0px 20px 0px;
+}
+
+h4 {
+  margin: 10px 0px 20px 0px;
+}
+
 .header {
   display: flex;
   position: fixed;
@@ -43,25 +51,83 @@ body {
   padding: 0px 20px;
 }
 
-.mission {
-  display: flex;
+.content {
+  /* display: inline-block; */
   position: relative;
   top: 70px;
-  width: 1200px;
-  height: 700px;
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  background-color: white;
+  justify-content: center;
+  width: 1200px;
+  margin: 0px auto;
+}
+
+.mission {
+  display: flex;
+  /* position: relative; */
+  /* width: 1200px; */
+  height: 700px;
+  /* margin: 0px auto; */
+  /* justify-content: center; */
+  align-items: center;
   background-image: url("../img/img-mission-background.jpg");
   background-size: 1200px 800px;
   background-repeat: no-repeat;
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
 }
 
 .statement {
-  display: flex;
   width: 1200px;
   background-color: black;
+  text-align: center;
+}
+
+.featured {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  height: 800px;
+  /* border: 1px solid cyan; */
+}
+
+/* .teas {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px 100px;
+} */
+
+.teas-top {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1000px;
+  padding-top: 20px;
+  /* padding: 10px 100px; */
+  /* border: 1px solid yellow; */
+}
+
+.teas-bottom {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 650px;
+  padding-top: 30px;
+  /* padding: 10px 100px; */
+  /* border: 1px solid yellow; */
+}
+
+.tea {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  /* padding-left: 50px; */
+  /* padding-right: 50px; */
+  justify-content: center;
+}
+
+.tea-span {
+  padding-top: 10px;
 }
